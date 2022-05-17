@@ -1,0 +1,23 @@
+package com.company;
+
+import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {
+        // write your code here
+        int nilai;
+
+
+        Scanner Input = new Scanner(System.in);
+        nilai = Input.nextInt();
+
+        System.out.println("Program Mengkonversi Nilai Angka menjadi Abjad");
+        System.out.println("Masukkan Nilai : " + nilai);
+
+        if (nilai >=80 && nilai <=100){
+            nilai = "A";
+            System.out.println("Nilai yang diperoleh : " + nilai);
+        }
+    }
+}
